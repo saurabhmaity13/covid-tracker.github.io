@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <title>Covid-19</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body onload="fetch()">
+        <nav class="navbar navbar-expand-lg nav_style">
+          <a class="navbar-brand" href="#">COVID-19</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutid">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#symptomsid">Symptoms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#preventionsid">Preventions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#statusid">Statistics</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+        <div class="main_header">
+            <div class="row">
+                <div class="col-12">
+                    <div class="leftside w-100 h-100 d-flex justify-content-center align-items-center">
+                        <img src="imgs/masks.jpeg" style="max-width:95%">
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="rightside" style="padding-left: 20px;">
+                        <h1>Let's Stay Safe & Fight Together Against Corono Virus! </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="main">
+        <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
+            <div class="section_header text-center mb-5 mt-5">
+                <h1>About COVID-19</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-12 w-100 h-100 d-flex justify-content-center align-items-center">
+                    <img src="imgs/coronavirus.png" width="250" height="250" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h2>What is COVID-19? (Corono Virus)</h2><br>
+                    <p>COVID-19 is the infectious disease caused by the most recently discovered coronavirus. The new Virus and disease were unknown before the outbreak began in Wuhan, China in December-2019.</p><br>
+                    <p>Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause resiparatory infections ranging from the common cold to more svere Acute Respiratory Syndrome(SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sub_section pt-5 pb-5" id="symptomsid">
+            <div class="section_header text-center mb-5 mt-5">
+                <h1>COVID-19 Symptoms</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/cough.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Cough</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/fever.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Fever</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/cold.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Cold</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/asthma.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Difficult Breathing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/tired.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Tiredness</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <figure class="text-center">
+                            <img src="imgs/flu.png" class="img-fluid" width="120" height="120">
+                            <figcaption>Runny Nose</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sub_section pt-5 pb-5" id="preventionsid">
+            <div class="section_header text-center mb-5 mt-5">
+                <h1>COVID-19 Preventions</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/hand-wash.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>Wash your hands regularly for 20 secnds with soap and water or alcohol-based hand rub.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/face-mask.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>Cover your nose and mouth with a disposal tissue or flexible masks when you cough and sneeze.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/social-distancing.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>Avoid close contanct with people who are unwell.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/stay-at-home.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>Stay home and self-isolated from others in the household. If you feel unwell.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/television.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>Stay informed by watching by news and follow the recommendated practices.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <figure class="text-center">
+                                    <img src="imgs/doctor.png" class="img-fluid" width="120" height="120">
+                                </figure>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <p>If you have fever, cough, breathing problems, etc seek medical care early.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="container-fluid sub_section pt-5 pb-5" id="statusid">
+            <div class="section_header text-center mb-5 mt-5">
+                <h1>COVID-19 Global Statistics</h1>
+            </div>
+            <div class="container mb-5">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 col-12" style="overflow-y: hidden">
+                        <h2>New Confirmed</h2>
+                        <h3 id="NC"></h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h2>Total Confirmed</h2>
+                        <h3 id="TC"></h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h2>New Deaths</h2>
+                        <h3 id="ND"></h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h2>Total Deaths</h2>
+                        <h3 id="TD"></h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h2>New Recovered</h2>
+                        <h3 id="NR"></h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h2>Total Recovered</h2>
+                        <h3 id="TR"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center" id="tbval">
+                    <tr>
+                        <th>Country</th>
+                        <th>Total Confirmed</th>
+                        <th>Total Recovered</th>
+                        <th>Total Deaths</th>
+                        <th>New Recovered</th>
+                        <th>New Deaths</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </section>
+        <footer class="mt-5" style="margin-bottom: 0px!important">
+            <div class="footer_style text-center">
+                <p>@2020 Covid-19 India| All Right Reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
